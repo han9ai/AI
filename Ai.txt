@@ -1,0 +1,36 @@
+
+Ubuntu Already on the device
+
+ https://www.ros.org/ 
+
+2- Donwnload Noetic Ninjemys
+ROS Noetic Ninjemys is latest ROS 1 LTS Release targeted at the Ubuntu 20.04 (Focal) release, though other systems are supported to varying degrees.
+
+3- Clik on Ubuntu
+
+4- copy
+ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+and Paste in Terminal and enter 
+Enter the password and enter
+5- copy these commend 
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add - 
+and enter
+
+6- copy these commend
+sudo apt update"
+"
+and enter update system packages
+
+7- copy these commend
+sudo apt install ros-noetic-desktop-full 
+and enter and yes
+nstallation  package
+
+
+8-  copy these commend
+
+
+source /opt/ros/noetic/setup.bash
+
+finish
